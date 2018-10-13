@@ -1,0 +1,41 @@
+h1 {
+	text-align: center;
+}
+
+html {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.logo {
+	height: 9.375em;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+}
+
+.courses {
+	text-align: center;
+	width: 100%;
+}
+
+.navigation {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #3587A4;
+}
+
+.navigation li{
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 2%;
+	color: white;
+}
+
+#name {
+	font-size: 60px;
+}
+
+
