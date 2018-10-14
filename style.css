@@ -1,10 +1,23 @@
+/*
+ * For reference, 1 em in this document is equivalent to 16 px.
+ */
+
 h1 {
 	text-align: center;
 }
 
 html {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 12.5em;
+	margin-right: 12.5em;
+}
+
+body {
+	font-size: 100%;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
 }
 
 .logo {
@@ -29,13 +42,13 @@ html {
 
 .navigation li{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 1.25em;
 	margin-right: 2%;
 	color: white;
 }
 
 #name {
-	font-size: 60px;
+	font-size: 3.75em;
 }
 
 
